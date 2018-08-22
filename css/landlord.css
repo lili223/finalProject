@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans|Roboto+Condensed|Shadows+Into+Light|Ubuntu');
+
+body{
+   background:url(../img/5.jpg)  no-repeat center center;
+   background-size:cover;
+   background-attachment:fixed;
+   background-color:#CCCCCC;
+   font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+/*input*/
+input{
+    margin: auto;
+    width: 200px;
+    hight: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    BACKGROUND-COLOR: transparent;
+}
+
+
+input::-ms-input-placeholder{
+    text-align: center;
+} 
+input::-webkit-input-placeholder{
+    text-align: center;
+}
+
+
+input[type=text] {
+    
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 4px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+div{
+top: 30%;
+position: absolute;
+right: 30%;
+text-align:right;
+}
+
+
+/*select*/
+.select{
+border: solid 1px #000;
+appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+padding-right: 14px;
+
+}
+
+
+
