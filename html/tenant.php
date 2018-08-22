@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <Html>
 <head>
-<script language="javascript" type="text/javascript" src="../select.js">
+<script language="javascript" type="text/javascript" src="../js/select.js">
 </script>
 <link rel="stylesheet" type="text/css" href="../css/tenant.css">
 </head>
